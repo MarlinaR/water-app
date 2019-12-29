@@ -42,7 +42,7 @@ namespace Wawa
 
             var l = new Label()
             {
-                Margin = new Thickness(20, 10, 0, 35),
+                Margin = new Thickness(20, 0, 0, 35),
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                 Text = "0"
             };
