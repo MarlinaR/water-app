@@ -1,0 +1,14 @@
+C:\Users\Svetlana\source\repos\Wawa\Wawa\bin\Debug\netstandard2.0\Wawa.deps.json
+C:\Users\Svetlana\source\repos\Wawa\Wawa\bin\Debug\netstandard2.0\Wawa.dll
+C:\Users\Svetlana\source\repos\Wawa\Wawa\bin\Debug\netstandard2.0\ref\Wawa.dll
+C:\Users\Svetlana\source\repos\Wawa\Wawa\bin\Debug\netstandard2.0\Wawa.pdb
+C:\Users\Svetlana\source\repos\Wawa\Wawa\obj\Debug\netstandard2.0\Wawa.csprojAssemblyReference.cache
+C:\Users\Svetlana\source\repos\Wawa\Wawa\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Svetlana\source\repos\Wawa\Wawa\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Svetlana\source\repos\Wawa\Wawa\obj\Debug\netstandard2.0\Wawa.AssemblyInfoInputs.cache
+C:\Users\Svetlana\source\repos\Wawa\Wawa\obj\Debug\netstandard2.0\Wawa.AssemblyInfo.cs
+C:\Users\Svetlana\source\repos\Wawa\Wawa\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Svetlana\source\repos\Wawa\Wawa\obj\Debug\netstandard2.0\Wawa.dll
+C:\Users\Svetlana\source\repos\Wawa\Wawa\obj\Debug\netstandard2.0\ref\Wawa.dll
+C:\Users\Svetlana\source\repos\Wawa\Wawa\obj\Debug\netstandard2.0\Wawa.pdb
+C:\Users\Svetlana\source\repos\Wawa\Wawa\obj\Debug\netstandard2.0\Page1.xaml.g.cs

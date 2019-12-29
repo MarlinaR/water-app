@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Wawa.MainPage"
+             Title="Menu">
+
+    <AbsoluteLayout BackgroundColor="Pink">
+        <StackLayout x:Name="products" AbsoluteLayout.LayoutBounds=".5, .2, .9, .85" AbsoluteLayout.LayoutFlags="All">
+            <ListView x:Name="LV">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Clicked="OnDelete"
+                                    CommandParameter="{Binding .}"
+                                    Text="Delete" IsDestructive="True" />
+                            </ViewCell.ContextActions>
+                            <Grid x:Name="LVItem">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Image Grid.Column="0" Source="{Binding imageSource}" HeightRequest="4" WidthRequest="4"/>
+                                <Label Grid.Column="1" Text="{Binding name}"/>
+                                <Label Grid.Column="2" Text="{Binding amount}"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+        <Button Text="+" AbsoluteLayout.LayoutBounds=".97, .97"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                CornerRadius="40" WidthRequest="50" HeightRequest="50" Clicked="Button_Clicked_p">
+        </Button>
+
+        <Button Text="Order" AbsoluteLayout.LayoutBounds=".5, .97"
+                WidthRequest="150" HeightRequest="50" AbsoluteLayout.LayoutFlags="PositionProportional"
+                Clicked="Button_Clicked_o">
+        </Button>
+
+    </AbsoluteLayout>
+
+</ContentPage>
