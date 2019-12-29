@@ -497,3 +497,4 @@ C:\Users\Svetlana\source\repos\Wawa\Wawa.Android\obj\Debug\90\res\drawable\water
 C:\Users\Svetlana\source\repos\Wawa\Wawa.Android\obj\Debug\90\res\drawable\juice.jpeg
 C:\Users\Svetlana\source\repos\Wawa\Wawa.Android\obj\Debug\90\res\drawable\pepsi.jpg
 C:\Users\Svetlana\source\repos\Wawa\Wawa.Android\obj\Debug\90\res\drawable\shop.png
+C:\Users\Svetlana\source\repos\Wawa\Wawa.Android\obj\Debug\90\android\assets\Mono.Android.pdb

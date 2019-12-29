@@ -7,25 +7,35 @@
              x:Class="Wawa.Page1">
     <ContentPage.Content>
         <AbsoluteLayout>
-            <Picker SelectedIndexChanged="Picker_SelectedIndexChanged" Title="Pick smth" AbsoluteLayout.LayoutBounds=".5, .05" AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Picker 
+                SelectedIndexChanged="Picker_SelectedIndexChanged" 
+                Title="Pick smth" 
+                AbsoluteLayout.LayoutBounds=".5, .05" 
+                AbsoluteLayout.LayoutFlags="PositionProportional">
                 <Picker.Items>
                     <x:String>Water</x:String>
                     <x:String>Juice</x:String>
                     <x:String>Pepsi</x:String>
                 </Picker.Items>
             </Picker>
-            <StackLayout AbsoluteLayout.LayoutBounds=".5, .3, .7, .4" AbsoluteLayout.LayoutFlags="All">
+            <StackLayout 
+                AbsoluteLayout.LayoutBounds=".5, .3, .7, .4" 
+                AbsoluteLayout.LayoutFlags="All">
                 <Image Source="shop.png" x:Name="img"/>
             </StackLayout>
-            <Grid x:Name="step" AbsoluteLayout.LayoutBounds=".5, .7, .9, .1" AbsoluteLayout.LayoutFlags="All">
+            <Grid x:Name="step" 
+                  AbsoluteLayout.LayoutBounds=".5, .7, .9, .1" 
+                  AbsoluteLayout.LayoutFlags="All">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
             </Grid>
 
-            <Button Text="Buy" AbsoluteLayout.LayoutBounds=".5, .9, .7, .1" AbsoluteLayout.LayoutFlags="All" Clicked="Button_Clicked_b">
-                
+            <Button Text="Buy" 
+                    AbsoluteLayout.LayoutBounds=".5, .9, .7, .1" 
+                    AbsoluteLayout.LayoutFlags="All" 
+                    Clicked="Button_Clicked_b">
             </Button>
         </AbsoluteLayout>
     </ContentPage.Content>

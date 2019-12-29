@@ -44,7 +44,8 @@ namespace Wawa
             {
                 Margin = new Thickness(20, 0, 0, 35),
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                Text = "0"
+                Text = "0",
+                FontFamily = "2221.ttf#PTSans-Regular"
             };
 
             step.Children.Add(l, 0, 0);
@@ -88,8 +89,6 @@ namespace Wawa
                         break;
                     }
             }
-
-            
         }
     }
 }

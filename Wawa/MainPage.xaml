@@ -8,7 +8,9 @@
              Title="Menu">
 
     <AbsoluteLayout BackgroundColor="Pink">
-        <StackLayout x:Name="products" AbsoluteLayout.LayoutBounds=".5, .2, .9, .85" AbsoluteLayout.LayoutFlags="All">
+        <StackLayout x:Name="products" 
+                     AbsoluteLayout.LayoutBounds=".5, .2, .9, .85" 
+                     AbsoluteLayout.LayoutFlags="All">
             <ListView x:Name="LV">
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -25,8 +27,8 @@
                                     <ColumnDefinition Width="*" />
                                 </Grid.ColumnDefinitions>
                                 <Image Grid.Column="0" Source="{Binding imageSource}" HeightRequest="4" WidthRequest="4"/>
-                                <Label Grid.Column="1" Text="{Binding name}"/>
-                                <Label Grid.Column="2" Text="{Binding amount}"/>
+                                <Label Grid.Column="1" Text="{Binding name}" FontFamily="2221.ttf#PTSans-Regular"/>
+                                <Label Grid.Column="2" Text="{Binding amount}" FontFamily="2221.ttf#PTSans-Regular"/>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
@@ -40,7 +42,8 @@
 
         <Button Text="Order" AbsoluteLayout.LayoutBounds=".5, .97"
                 WidthRequest="150" HeightRequest="50" AbsoluteLayout.LayoutFlags="PositionProportional"
-                Clicked="Button_Clicked_o">
+                Clicked="Button_Clicked_o"
+                FontFamily="2221.ttf#PTSans-Regular">
         </Button>
 
     </AbsoluteLayout>

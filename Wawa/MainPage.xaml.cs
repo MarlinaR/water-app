@@ -31,7 +31,6 @@ namespace Wawa
 
             Prods = new ObservableCollection<Product>();
             
-
             LV.ItemsSource = Prods;
             //var productDataTemplate = new DataTemplate(() =>
             //{
